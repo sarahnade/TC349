@@ -1,0 +1,34 @@
+$background-one: #846f8d;
+$background-two: #482955;
+$item-height: 200px;
+
+.media {
+  height: 400px;
+}
+
+.media-grid {
+  list-style-type: none;
+  background: $background-one;
+  margin: 0;
+  padding: 0;
+
+  li {
+    background: $background-two;
+    float: left;
+    height: $item-height;
+    width: 20%;
+  }
+
+  li:nth-child(even) {
+    background: $background-one;
+  }
+
+  .media-grid-sm li {
+    width: 10%;
+    height: 100px;
+  }
+
+  img {
+    height: 100%;
+  }
+}

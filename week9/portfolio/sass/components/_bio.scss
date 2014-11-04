@@ -1,0 +1,24 @@
+@import "compass/css3/images";
+
+$background-color: #bd92cf;
+$lighter-color: #e5d5ec;
+$font-color: #482955;
+
+.bio {
+  clear: both;
+  background: $background-color;
+  height: 350px;
+  @include background-image(linear-gradient($lighter-color, $background-color));
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding-top: 8.75%;
+  }
+
+  p {
+    text-align: center;
+    color: $font-color;
+  }
+}

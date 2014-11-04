@@ -1,0 +1,10 @@
+@import "compass/css3/border-radius";
+
+$background-color: #fff;
+
+.footer {
+  clear: both;
+  background: $background-color;
+  height: 50px;
+  @include border-bottom-radius (5px);
+}

@@ -1,0 +1,27 @@
+@import "compass/css3/columns";
+
+$background-color: #d0c8d3;
+$font-color: #482955;
+$section-height: 300px;
+
+.more-info {
+  clear: both;
+  background: $background-color;
+  height: $section-height;
+
+  p {
+    color: $font-color;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #two-column {
+    @include column-count(2);
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+}
