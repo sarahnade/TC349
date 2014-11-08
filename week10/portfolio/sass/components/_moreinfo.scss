@@ -1,0 +1,26 @@
+$background-color: #E9E8E5;
+$font-color: #4A423B;
+$section-height: 300px;
+
+.more-info {
+  clear: both;
+  background: $background-color;
+  height: $section-height;
+  @include single-box-shadow;
+
+  p {
+    color: $font-color;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #two-column {
+    @include column-count(2);
+    width: 98%;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+}

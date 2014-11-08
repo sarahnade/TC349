@@ -1,0 +1,29 @@
+$background-color: #EA693F;
+$lighter-color: #F09679;
+$font-color: #fff;
+
+.bio {
+  clear: both;
+  background: $background-color;
+  height: 375px;
+  @include background-image(linear-gradient($lighter-color, $background-color));
+  @include single-box-shadow;
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding-top: 15%;
+    @include transition-property(width);
+    @include transition-duration(.7s);
+
+    &:hover {
+      width: 35%;
+    }
+  }
+
+  p {
+    text-align: center;
+    color: $font-color;
+  }
+}

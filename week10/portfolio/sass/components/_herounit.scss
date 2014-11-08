@@ -1,0 +1,15 @@
+$background-color: #dFb354;
+$image-width: 40%;
+
+.hero {
+  clear: both;
+  background: $background-color;
+  height: 350px;
+  @include single-box-shadow;
+
+  img {
+    display: block;
+    width: $image-width;
+    margin: 0 auto;
+  }
+}
