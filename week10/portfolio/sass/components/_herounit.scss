@@ -7,9 +7,20 @@ $image-width: 40%;
   height: 350px;
   @include single-box-shadow;
 
-  img {
+  .contact {
     display: block;
-    width: $image-width;
-    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 15%;
+  }
+
+  .contact-button {
+    color: #fff;
+    @include transition-property(font-size);
+    @include transition-duration(.7s);
+
+    &:hover {
+      font-size: 35px;
+    }
   }
 }

@@ -41,6 +41,10 @@ $item-height: 200px;
       height: $item-height;
       opacity:.9;
     }
+
+    p {
+      padding-top: 70px;
+    }
   }
 
   li:nth-child(even) {
@@ -53,6 +57,6 @@ $item-height: 200px;
   }
 
   img {
-    width: 100%;
+    max-width: 100%;
   }
 }

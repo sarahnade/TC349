@@ -93,18 +93,22 @@ body {
   height: 200px;
   opacity: .9;
 }
-/* line 46, ../sass/components/_mediagrid.scss */
+/* line 45, ../sass/components/_mediagrid.scss */
+.media-grid span p {
+  padding-top: 70px;
+}
+/* line 50, ../sass/components/_mediagrid.scss */
 .media-grid li:nth-child(even) {
   background: #87786a;
 }
-/* line 50, ../sass/components/_mediagrid.scss */
+/* line 54, ../sass/components/_mediagrid.scss */
 .media-grid .media-grid-sm li {
   width: 10%;
   height: 100px;
 }
-/* line 55, ../sass/components/_mediagrid.scss */
+/* line 59, ../sass/components/_mediagrid.scss */
 .media-grid img {
-  width: 100%;
+  max-width: 100%;
 }
 
 /* line 4, ../sass/components/_herounit.scss */
@@ -117,10 +121,27 @@ body {
   box-shadow: 0px 0px 5px #333333;
 }
 /* line 10, ../sass/components/_herounit.scss */
-.hero img {
+.hero .contact {
   display: block;
-  width: 40%;
-  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 15%;
+}
+/* line 17, ../sass/components/_herounit.scss */
+.hero .contact-button {
+  color: #fff;
+  -webkit-transition-property: font-size;
+  -moz-transition-property: font-size;
+  -o-transition-property: font-size;
+  transition-property: font-size;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+/* line 22, ../sass/components/_herounit.scss */
+.hero .contact-button:hover {
+  font-size: 35px;
 }
 
 /* line 5, ../sass/components/_moreinfo.scss */
@@ -139,9 +160,12 @@ body {
 }
 /* line 16, ../sass/components/_moreinfo.scss */
 .more-info img {
-  width: 100%;
+  width: 40%;
+  padding-top: 4%;
+  padding-left: 30%;
+  padding-bottom: 10%;
 }
-/* line 20, ../sass/components/_moreinfo.scss */
+/* line 23, ../sass/components/_moreinfo.scss */
 .more-info #two-column {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -150,7 +174,7 @@ body {
   column-count: 2;
   width: 98%;
   margin: 0 auto;
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 /* line 3, ../sass/components/_footer.scss */
