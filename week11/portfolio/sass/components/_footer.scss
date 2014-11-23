@@ -1,0 +1,8 @@
+$background-color: #4A423B;
+
+.footer {
+  clear: both;
+  background: $background-color;
+  height: 50px;
+  @include single-box-shadow;
+}
