@@ -1,0 +1,5 @@
+URL: http://sarahnade.github.io/suburbanmixtape/
+
+HTML 5 Validation: Passed
+
+CSS 3 Validation: Errors with normalize.css and Font Awesome but I’m assuming those aren’t a problem.
